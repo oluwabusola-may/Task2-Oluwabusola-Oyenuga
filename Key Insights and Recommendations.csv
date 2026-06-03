@@ -1,0 +1,22 @@
+﻿,Key Findings,
+NO,Findings,Business Impact
+1,Only 19.3* of orders were delivered successfully,"The business is losing 80% of potential revenue to cancellations, returns and pending orders"
+2,Chair and Printer lead in total revenur($195k each),These are the top-performing products and deserve priority in stock and marketing
+3,"Laptop has the highest average order value($1,110)","Laptop buyers spend the most per order, a high-value customer segment"
+4,Phone and Desk have the lowest revenue,These products need promotion or pricing review
+5,Table has the most returns(43),Product quality or description mismatch may be driving dissatisfaction
+6,Chair has the most cancellations(45),Possible stock or delivery issues causing customers to abandon orders
+7,Instagram drives the most traffic (259 orders),Instagram is the most effective acquisition channel
+8,Coupon users spend $14 more on average,"Coupons are bringing in buyers who spend more, not less"
+9,8 bulk buyers exceeded the outliers threshold,"These are premium customers ordering max quantity at high prices, VIP segment"
+10,Total Price is right-skewed,A small group of high-value orders inflates the average i.e median ($824) is a truer picture of typical order value
+,,
+,,
+,,
+No,Recommendation,
+1,"Investigate why cancellation and return rates are so high, survey customers or audit fulfilment process",
+2,"Double down on Instagram marketing, it's your best-performing acquisition channel",
+3,Create a VIP or loyalty programme targeting the 8 bulk buyers identified,
+4,"Review Tablet product listings, high return rate suggests expectation mismatch",
+5,"Expand coupon campaigns, data shows coupon users spend more, not less",
+6,"Use median ($824) not mean ($1,054) for benchmarking typical order value due to skew",

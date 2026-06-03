@@ -1,0 +1,26 @@
+﻿Order Status Breakdown,,,,,Payment Method,,,
+Order Status,Count,% of Total,,,Payment Method,Orders,,
+Cancelled,250,21%,,,Online,258,,
+Returned,247,21%,,,Cash,246,,
+Pending,237,20%,,,Credit Card,234,,
+Shipped,235,20%,,,Debit Card,232,,
+Delivered,231,19%,,,Gift Card,230,,
+,,,,,,,,
+,,,,,,,,
+Product Performance,,,,,Cancellations & Returns by Product,,,
+Product,Total Revenue,Total Orders,,,Product,Cancelled,Returned,Combined Loss
+Chair,195620.11,178,,,Chair,45,28,73
+Printer,195612.61,181,,,Tablet,34,43,77
+Laptop,192126.56,173,,,Printer,35,38,73
+Tablet,186568.95,179,,,Laptop,35,39,74
+Monitor,175651.41,163,,,Monitor,35,36,71
+Desk,167459.93,170,,,Desk,35,32,67
+Phone,151722.39,156,,,Phone,31,31,62
+,,,,,,,,
+Referral Source,,,,,Coupon Impact,,,
+Source,Orders,,,,Customer Group,Avg Order Value,Count,
+Instagram,259,,,,Used Coupon,1057.643715,891,
+Email,250,,,,No Coupon,1043.370259,309,
+Google,241,,,,,,,
+Facebook,228,,,,,,,
+Referral,259,,,,,,,

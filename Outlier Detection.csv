@@ -1,0 +1,22 @@
+﻿IQR Method Explained,,,,,,
+Term,Formula,Value,,,,
+IQR ,Q3-Q1,1167.96,,,,
+Lower Bound,Q1 - (1.5*IQR),-1341.41,,,,
+Upper Bound,Q3 + (1.5*IQR),3330.41,,,,
+,,,,,Interpretation,
+Outlier Scan Results,,,,,Finding,Business Diagnosis
+Column,Outliers Found,Verdict,,,All 8 outliers have Quantity = 5 (maximum),"These are bulk purchases, not errors"
+TotalPrice,8,Investigate,,,All have high UnitPrice (above $666),High value products ordered in maximum quantity
+UnitPrice,0,Clean,,,"Verdict: SIGNAL, not noise","Retain these rows, they represent premium bulk buyers worth targeting"
+Quantity,0,Clean,,,,
+,,,,,,
+The 8 Outlier Orders,,,,,,
+CustomerID,Product,Quantity,UnitPrice,TotalPrice,,
+C16775,Printer,5,670.75,3353.75,,
+C65986,Laptop,5,670.48,3352.4,,
+C18404,Tablet,5,674.04,3370.2,,
+C13877,Chair,5,676.98,3384.9,,
+C67260,Laptop,5,678.16,3390.8,,
+C57276,Tablet,5,691.28,3456.4,,
+C47778,Printer,5,666.8,3334,,
+C38840,Monitor,5,678.19,3390.95,,

@@ -1,0 +1,20 @@
+﻿Numeric Columns Summary,,,,
+,,,,
+Metric,Quantity,UnitPrice,ItemsInCart,TotalPrice
+Count,1200,1200,1200,1200
+Mean,2.95,356.41,5.49,1053.97
+Median,3,364.21,5,823.62
+Min,1,11.39,1,11.39
+Max,5,699.93,10,3456.4
+Q1(25%),2,186.06,4,410.52
+Q3(75%),4,521.57,7,1578.48
+Std Dev,1.41,197.09,2.28,819.51
+,,,,
+,,,,
+Key Observations,,,,
+,,,,
+Columns,Observation,,,
+TotalPrice,"Mean ($1,054) is higher than the median ($824) meaning a few high value orders pull the average up",,,
+UnitPrice,Wide range ($11 - $700) suggests a very different product price points,,,
+Quantity,"Most orders are for 1-5 units, fairly consistent",,,
+ItemsInCart,"Average of 5 items in cart but only 1 product purchased, suggests browsing without buying",,,
